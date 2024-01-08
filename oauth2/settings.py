@@ -35,7 +35,7 @@ AUTHENTICATION_BACKENDS = [
    
 ]
 
-
+LOGIN_REDIRECT_URL ='/'
 # Application definition
 
 INSTALLED_APPS = [

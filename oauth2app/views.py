@@ -9,3 +9,7 @@ def greet(request):
     # return JsonResponse({
     #     "message":"Hello World!"
     # })
+
+@csrf_exempt
+def dashboard(request):
+    return render(request, "dashboard.html")

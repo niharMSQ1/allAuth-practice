@@ -7,4 +7,6 @@ urlpatterns = [
     path('', include("oauth2app.urls")),
 
     path('accounts/', include('allauth.urls')),
+
+    
 ]
